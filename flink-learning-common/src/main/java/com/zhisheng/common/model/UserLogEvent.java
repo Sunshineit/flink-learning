@@ -22,18 +22,21 @@ public class UserLogEvent {
     //姓名
     private String realName;
     // 是否首贷	1是，0否
-    private Integer reloan;
+    private String reloan;
     //是否信息流用户
-    private Integer isInformationFlow;
-    //审批结果
+    private String isInformationFlow;
+    //审批结果PASS,STOP,REFUSE
     private String auditResult;
     //核批金额
     private String approveAmount;
     //即核批出结果时间
-    private Long approveTime;
+    private String approveTime;
     //消息通知时间
     private Long sendTime;
     //事件名称
-    private String eventName;
+    private String businessType;
+
+    //活动ID
+    private Long activity_id;
 
 }
