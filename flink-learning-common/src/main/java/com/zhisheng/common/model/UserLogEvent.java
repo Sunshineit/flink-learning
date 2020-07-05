@@ -1,15 +1,13 @@
 package com.zhisheng.common.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
 public class UserLogEvent {
 
     private Long mid;
